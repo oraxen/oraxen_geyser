@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Oops! Tentaste abrir uma versão de plugin do Geyser diretamente!
+
+  Este ficheiro Jar é um plugin para ${plugin_type}. Podes abrir este ficheiro como um(a)
+  plugin ao colocar o ficheiro Jar dentro do diretório '${plugin_folder}'.
+
+  Também eiste uma versão independente que não necessita de
+  ser instalada como um plugin, podes encontrá-la no nosso servidor de builds:
+
+    http://ci.geysermc.org/
+
+  Se precisares de mais ajuda, recomendamos-te que entres no nosso discord:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Oops! Ai încercat să rulezi o versiune plugin a Geyser direct!
+
+  Acest fisier jar este un plugin pentru ${plugin_type}. Poți rula acest fișier ca
+  plugin prin mutarea fișierului jar in directorul "${plugin_folder}".
+
+  There is also a standalone version available that doesn't need to
+  be installed as a plugin, you can find it on our build server:
+
+    http://ci.geysermc.org/
+
+  If you need more help, you should check out our discord:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------

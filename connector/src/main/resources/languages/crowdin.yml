@@ -1,0 +1,8 @@
+files:
+  - source: /texts/en_US.properties
+    translation: /texts/%locale_with_underscore%.%file_extension%
+    escape_quotes: 0
+
+  - source: /run-help/en_US.txt
+    translation: /run-help/%locale_with_underscore%.%file_extension%
+    escape_quotes: 0

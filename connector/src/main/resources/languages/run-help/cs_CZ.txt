@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Ups! Zkusili jste spustit pluginovou verzi Geyseru přímo!
+
+  Tento jar soubor je pro ${plugin_type}. Můžete spustit tento soubor jako
+  plugin přesunutím tohoto jar souboru do složky "${plugin_folder}" ve vašem serveru.
+
+  Existuje také samostatná verze která nemusí
+  být nainstalována jako plugin, můžete ji najít na našem serveru:
+
+    http://ci.geysermc.org/
+
+  Pokud potřebujete pomoct, zeptejte se na našem discordu:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------

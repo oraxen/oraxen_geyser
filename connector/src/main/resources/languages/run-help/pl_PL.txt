@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Ups! Uruchomiłeś plugin, a nie samodzielną wersję Geyser!
+
+  Ten plik jar to plugin do ${plugin_type}. Możesz uruchomić ten plik
+  wrzucając go do folderu "${plugin_folder}".
+
+  Tutaj możesz znaleźć samodzielną wersję,
+  która nie jest pluginem. Znajdziesz ją tutaj:
+
+    http://ci.geysermc.org/
+
+  Jeśli potrzebujesz pomocy, sprawdź nasz serwer discord:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------

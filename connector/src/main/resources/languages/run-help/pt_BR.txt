@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Hey! Você tentou executar uma versão de plugin do Geyser diretamente!
+
+  Este arquivo jar é um plugin para ${plugin_type}. Você pode executar este arquivo como um
+  plugin soltando o arquivo jar no diretório "${plugin_folder}".
+
+  Há também uma versão autônoma disponível que não precisa
+  ser instalado como um plugin, você pode encontrá-lo em nosso servidor de compilação:
+
+    http://ci.geysermc.org/
+
+  Se precisar de mais ajuda, você deve verificar nosso grupo no Discord:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------

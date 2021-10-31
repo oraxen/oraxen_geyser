@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Oeps! Je hebt geprobeerd een plug-in-versie van Geyser rechtstreeks uit te voeren!
+
+  Dit jar bestand is een plugin voor ${plugin_type}. U kunt dit bestand uitvoeren als een
+  plug-in door het jar-bestand in de map "${plugin_folder}" te plaatsen.
+
+  Er is ook een zelfstandige versie beschikbaar die je niet hoeft te
+  installeren als een plugin. Je kan deze vinden op onze website:
+
+    http://ci.geysermc.org/
+
+  Als je meer hulp nodig hebt, bekijk dan onze discord server:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------

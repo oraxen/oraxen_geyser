@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Ups! Du forsøgte at køre en plugin-version af Geyser direkte!
+
+  Denne jarfil er et plugin til ${plugin_type}. Du kan køre denne fil som et
+  plugin ved at droppe jar-filen i mappen "${plugin_folder}".
+
+  Der er også en enkeltstående version tilgængelig, som ikke behøver at
+  blive installeret som et plugin, du kan finde den på vores build-server:
+
+    http://ci.geysermc.org/
+
+  Hvis du har brug for mere hjælp, bør du tjekke vores discord:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------

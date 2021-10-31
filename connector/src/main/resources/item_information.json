@@ -1,0 +1,4882 @@
+{
+  "air": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "granite": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_granite": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "diorite": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_diorite": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "andesite": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_andesite": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "grass_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dirt": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "coarse_dirt": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "podzol": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_nylium": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_nylium": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cobblestone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_planks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_planks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_planks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_planks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_planks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_planks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_planks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_planks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_sapling": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_sapling": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_sapling": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_sapling": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_sapling": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_sapling": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bedrock": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sand": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_sand": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gravel": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gold_ore": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "iron_ore": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "coal_ore": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_gold_ore": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_stem": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_stem": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_oak_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_spruce_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_birch_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_jungle_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_acacia_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_dark_oak_log": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_crimson_stem": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_warped_stem": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_oak_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_spruce_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_birch_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_jungle_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_acacia_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_dark_oak_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_crimson_hyphae": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stripped_warped_hyphae": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_wood": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_hyphae": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_hyphae": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_leaves": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_leaves": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_leaves": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_leaves": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_leaves": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_leaves": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sponge": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "wet_sponge": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lapis_ore": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lapis_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dispenser": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sandstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chiseled_sandstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cut_sandstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "note_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "powered_rail": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "detector_rail": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sticky_piston": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cobweb": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "grass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "fern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_bush": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "seagrass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sea_pickle": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "piston": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magenta_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_blue_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "yellow_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lime_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gray_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_gray_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cyan_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purple_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "green_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "black_wool": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dandelion": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "poppy": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_orchid": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "allium": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "azure_bluet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_tulip": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_tulip": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_tulip": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_tulip": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oxeye_daisy": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cornflower": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lily_of_the_valley": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "wither_rose": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_mushroom": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_mushroom": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_fungus": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_fungus": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_roots": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_roots": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_sprouts": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "weeping_vines": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "twisting_vines": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sugar_cane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "kelp": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bamboo": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gold_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "iron_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_stone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sandstone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cut_sandstone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "petrified_oak_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cobblestone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brick_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stone_brick_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_brick_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "quartz_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_sandstone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cut_red_sandstone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purpur_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "prismarine_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "prismarine_brick_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_prismarine_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_quartz": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_red_sandstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_sandstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_stone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tnt": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bookshelf": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mossy_cobblestone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "obsidian": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "torch": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "end_rod": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chorus_plant": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chorus_flower": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purpur_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purpur_pillar": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purpur_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spawner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chest": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "diamond_ore": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "diamond_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crafting_table": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "farmland": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "furnace": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ladder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "rail": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cobblestone_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lever": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stone_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "redstone_ore": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "redstone_torch": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "snow": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ice": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "snow_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cactus": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "clay": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jukebox": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_fence": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_fence": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_fence": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_fence": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_fence": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_fence": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_fence": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_fence": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pumpkin": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "carved_pumpkin": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "netherrack": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "soul_sand": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "soul_soil": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "basalt": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_basalt": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "soul_torch": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "glowstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jack_o_lantern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_trapdoor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_trapdoor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_trapdoor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_trapdoor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_trapdoor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_trapdoor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_trapdoor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_trapdoor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "infested_stone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "infested_cobblestone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "infested_stone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "infested_mossy_stone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "infested_cracked_stone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "infested_chiseled_stone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mossy_stone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cracked_stone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chiseled_stone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_mushroom_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_mushroom_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mushroom_stem": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "iron_bars": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chain": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "melon": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "vine": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_fence_gate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_fence_gate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_fence_gate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_fence_gate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_fence_gate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_fence_gate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_fence_gate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_fence_gate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brick_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stone_brick_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mycelium": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lily_pad": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cracked_nether_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chiseled_nether_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_brick_fence": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_brick_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "enchanting_table": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "end_portal_frame": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "end_stone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "end_stone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dragon_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "redstone_lamp": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sandstone_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "emerald_ore": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ender_chest": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tripwire_hook": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "emerald_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "command_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "beacon": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cobblestone_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mossy_cobblestone_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brick_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "prismarine_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_sandstone_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mossy_stone_brick_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "granite_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stone_brick_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_brick_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "andesite_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_nether_brick_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sandstone_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "end_stone_brick_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "diorite_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blackstone_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone_brick_wall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stone_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone_button": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "anvil": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chipped_anvil": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "damaged_anvil": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "trapped_chest": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_weighted_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "heavy_weighted_pressure_plate": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "daylight_detector": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "redstone_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_quartz_ore": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "hopper": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chiseled_quartz_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "quartz_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "quartz_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "quartz_pillar": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "quartz_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "activator_rail": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dropper": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magenta_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_blue_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "yellow_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lime_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gray_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_gray_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cyan_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purple_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "green_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "black_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "barrier": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "iron_trapdoor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "hay_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magenta_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_blue_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "yellow_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lime_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gray_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_gray_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cyan_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purple_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "green_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "black_carpet": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "coal_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "packed_ice": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "slime_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "grass_path": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sunflower": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lilac": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "rose_bush": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "peony": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tall_grass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "large_fern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magenta_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_blue_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "yellow_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lime_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gray_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_gray_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cyan_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purple_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "green_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "black_stained_glass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magenta_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_blue_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "yellow_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lime_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gray_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_gray_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cyan_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purple_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "green_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "black_stained_glass_pane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "prismarine": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "prismarine_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_prismarine": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "prismarine_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "prismarine_brick_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_prismarine_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sea_lantern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_sandstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chiseled_red_sandstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cut_red_sandstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_sandstone_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "repeating_command_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chain_command_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magma_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_wart_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_wart_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_nether_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bone_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "structure_void": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "observer": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "white_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "orange_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "magenta_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "light_blue_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "yellow_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "lime_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "pink_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "gray_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "light_gray_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "cyan_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "purple_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "blue_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "brown_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "green_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "red_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "black_shulker_box": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "white_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magenta_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_blue_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "yellow_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lime_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gray_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_gray_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cyan_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purple_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "green_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "black_glazed_terracotta": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magenta_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_blue_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "yellow_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lime_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gray_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_gray_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cyan_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purple_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "green_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "black_concrete": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magenta_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_blue_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "yellow_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lime_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gray_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_gray_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cyan_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purple_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "green_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "black_concrete_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "turtle_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_tube_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_brain_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_bubble_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_fire_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_horn_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tube_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brain_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bubble_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "fire_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "horn_coral_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tube_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brain_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bubble_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "fire_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "horn_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_brain_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_bubble_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_fire_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_horn_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_tube_coral": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tube_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brain_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bubble_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "fire_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "horn_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_tube_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_brain_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_bubble_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_fire_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dead_horn_coral_fan": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_ice": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "conduit": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_granite_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_red_sandstone_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mossy_stone_brick_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_diorite_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mossy_cobblestone_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "end_stone_brick_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stone_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_sandstone_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_quartz_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "granite_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "andesite_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_nether_brick_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_andesite_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "diorite_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_granite_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_red_sandstone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mossy_stone_brick_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_diorite_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mossy_cobblestone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "end_stone_brick_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_sandstone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smooth_quartz_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "granite_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "andesite_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_nether_brick_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_andesite_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "diorite_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "scaffolding": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "iron_door": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_door": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spruce_door": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "birch_door": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jungle_door": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "acacia_door": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dark_oak_door": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crimson_door": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "warped_door": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "repeater": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "comparator": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "structure_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "jigsaw": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "turtle_helmet": {
+    "hand_equipped": false,
+    "max_damage": 275,
+    "max_stack_size": 1
+  },
+  "scute": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "flint_and_steel": {
+    "hand_equipped": false,
+    "max_damage": 64,
+    "max_stack_size": 1
+  },
+  "apple": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bow": {
+    "hand_equipped": false,
+    "max_damage": 384,
+    "max_stack_size": 1
+  },
+  "arrow": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "coal": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "charcoal": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "diamond": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "iron_ingot": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gold_ingot": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "netherite_ingot": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "netherite_scrap": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "wooden_sword": {
+    "hand_equipped": true,
+    "max_damage": 59,
+    "max_stack_size": 1
+  },
+  "wooden_shovel": {
+    "hand_equipped": true,
+    "max_damage": 59,
+    "max_stack_size": 1
+  },
+  "wooden_pickaxe": {
+    "hand_equipped": true,
+    "max_damage": 59,
+    "max_stack_size": 1
+  },
+  "wooden_axe": {
+    "hand_equipped": true,
+    "max_damage": 59,
+    "max_stack_size": 1
+  },
+  "wooden_hoe": {
+    "hand_equipped": true,
+    "max_damage": 59,
+    "max_stack_size": 1
+  },
+  "stone_sword": {
+    "hand_equipped": true,
+    "max_damage": 131,
+    "max_stack_size": 1
+  },
+  "stone_shovel": {
+    "hand_equipped": true,
+    "max_damage": 131,
+    "max_stack_size": 1
+  },
+  "stone_pickaxe": {
+    "hand_equipped": true,
+    "max_damage": 131,
+    "max_stack_size": 1
+  },
+  "stone_axe": {
+    "hand_equipped": true,
+    "max_damage": 131,
+    "max_stack_size": 1
+  },
+  "stone_hoe": {
+    "hand_equipped": true,
+    "max_damage": 131,
+    "max_stack_size": 1
+  },
+  "golden_sword": {
+    "hand_equipped": true,
+    "max_damage": 32,
+    "max_stack_size": 1
+  },
+  "golden_shovel": {
+    "hand_equipped": true,
+    "max_damage": 32,
+    "max_stack_size": 1
+  },
+  "golden_pickaxe": {
+    "hand_equipped": true,
+    "max_damage": 32,
+    "max_stack_size": 1
+  },
+  "golden_axe": {
+    "hand_equipped": true,
+    "max_damage": 32,
+    "max_stack_size": 1
+  },
+  "golden_hoe": {
+    "hand_equipped": true,
+    "max_damage": 32,
+    "max_stack_size": 1
+  },
+  "iron_sword": {
+    "hand_equipped": true,
+    "max_damage": 250,
+    "max_stack_size": 1
+  },
+  "iron_shovel": {
+    "hand_equipped": true,
+    "max_damage": 250,
+    "max_stack_size": 1
+  },
+  "iron_pickaxe": {
+    "hand_equipped": true,
+    "max_damage": 250,
+    "max_stack_size": 1
+  },
+  "iron_axe": {
+    "hand_equipped": true,
+    "max_damage": 250,
+    "max_stack_size": 1
+  },
+  "iron_hoe": {
+    "hand_equipped": true,
+    "max_damage": 250,
+    "max_stack_size": 1
+  },
+  "diamond_sword": {
+    "hand_equipped": true,
+    "max_damage": 1561,
+    "max_stack_size": 1
+  },
+  "diamond_shovel": {
+    "hand_equipped": true,
+    "max_damage": 1561,
+    "max_stack_size": 1
+  },
+  "diamond_pickaxe": {
+    "hand_equipped": true,
+    "max_damage": 1561,
+    "max_stack_size": 1
+  },
+  "diamond_axe": {
+    "hand_equipped": true,
+    "max_damage": 1561,
+    "max_stack_size": 1
+  },
+  "diamond_hoe": {
+    "hand_equipped": true,
+    "max_damage": 1561,
+    "max_stack_size": 1
+  },
+  "netherite_sword": {
+    "hand_equipped": true,
+    "max_damage": 2031,
+    "max_stack_size": 1
+  },
+  "netherite_shovel": {
+    "hand_equipped": true,
+    "max_damage": 2031,
+    "max_stack_size": 1
+  },
+  "netherite_pickaxe": {
+    "hand_equipped": true,
+    "max_damage": 2031,
+    "max_stack_size": 1
+  },
+  "netherite_axe": {
+    "hand_equipped": true,
+    "max_damage": 2031,
+    "max_stack_size": 1
+  },
+  "netherite_hoe": {
+    "hand_equipped": true,
+    "max_damage": 2031,
+    "max_stack_size": 1
+  },
+  "stick": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bowl": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mushroom_stew": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "string": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "feather": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gunpowder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "wheat_seeds": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "wheat": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bread": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "leather_helmet": {
+    "hand_equipped": false,
+    "max_damage": 55,
+    "max_stack_size": 1
+  },
+  "leather_chestplate": {
+    "hand_equipped": false,
+    "max_damage": 80,
+    "max_stack_size": 1
+  },
+  "leather_leggings": {
+    "hand_equipped": false,
+    "max_damage": 75,
+    "max_stack_size": 1
+  },
+  "leather_boots": {
+    "hand_equipped": false,
+    "max_damage": 65,
+    "max_stack_size": 1
+  },
+  "chainmail_helmet": {
+    "hand_equipped": false,
+    "max_damage": 165,
+    "max_stack_size": 1
+  },
+  "chainmail_chestplate": {
+    "hand_equipped": false,
+    "max_damage": 240,
+    "max_stack_size": 1
+  },
+  "chainmail_leggings": {
+    "hand_equipped": false,
+    "max_damage": 225,
+    "max_stack_size": 1
+  },
+  "chainmail_boots": {
+    "hand_equipped": false,
+    "max_damage": 195,
+    "max_stack_size": 1
+  },
+  "iron_helmet": {
+    "hand_equipped": false,
+    "max_damage": 165,
+    "max_stack_size": 1
+  },
+  "iron_chestplate": {
+    "hand_equipped": false,
+    "max_damage": 240,
+    "max_stack_size": 1
+  },
+  "iron_leggings": {
+    "hand_equipped": false,
+    "max_damage": 225,
+    "max_stack_size": 1
+  },
+  "iron_boots": {
+    "hand_equipped": false,
+    "max_damage": 195,
+    "max_stack_size": 1
+  },
+  "diamond_helmet": {
+    "hand_equipped": false,
+    "max_damage": 363,
+    "max_stack_size": 1
+  },
+  "diamond_chestplate": {
+    "hand_equipped": false,
+    "max_damage": 528,
+    "max_stack_size": 1
+  },
+  "diamond_leggings": {
+    "hand_equipped": false,
+    "max_damage": 495,
+    "max_stack_size": 1
+  },
+  "diamond_boots": {
+    "hand_equipped": false,
+    "max_damage": 429,
+    "max_stack_size": 1
+  },
+  "golden_helmet": {
+    "hand_equipped": false,
+    "max_damage": 77,
+    "max_stack_size": 1
+  },
+  "golden_chestplate": {
+    "hand_equipped": false,
+    "max_damage": 112,
+    "max_stack_size": 1
+  },
+  "golden_leggings": {
+    "hand_equipped": false,
+    "max_damage": 105,
+    "max_stack_size": 1
+  },
+  "golden_boots": {
+    "hand_equipped": false,
+    "max_damage": 91,
+    "max_stack_size": 1
+  },
+  "netherite_helmet": {
+    "hand_equipped": false,
+    "max_damage": 407,
+    "max_stack_size": 1
+  },
+  "netherite_chestplate": {
+    "hand_equipped": false,
+    "max_damage": 592,
+    "max_stack_size": 1
+  },
+  "netherite_leggings": {
+    "hand_equipped": false,
+    "max_damage": 555,
+    "max_stack_size": 1
+  },
+  "netherite_boots": {
+    "hand_equipped": false,
+    "max_damage": 481,
+    "max_stack_size": 1
+  },
+  "flint": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "porkchop": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cooked_porkchop": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "painting": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "golden_apple": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "enchanted_golden_apple": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "oak_sign": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "spruce_sign": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "birch_sign": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "jungle_sign": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "acacia_sign": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "dark_oak_sign": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "crimson_sign": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "warped_sign": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "bucket": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "water_bucket": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "lava_bucket": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "minecart": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "saddle": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "redstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "snowball": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "oak_boat": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "leather": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "milk_bucket": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "pufferfish_bucket": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "salmon_bucket": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "cod_bucket": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "tropical_fish_bucket": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "brick": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "clay_ball": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dried_kelp_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "paper": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "book": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "slime_ball": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chest_minecart": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "furnace_minecart": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "compass": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "fishing_rod": {
+    "hand_equipped": false,
+    "max_damage": 64,
+    "max_stack_size": 1
+  },
+  "clock": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "glowstone_dust": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cod": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "salmon": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tropical_fish": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pufferfish": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cooked_cod": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cooked_salmon": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ink_sac": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cocoa_beans": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lapis_lazuli": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "orange_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magenta_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_blue_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "yellow_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lime_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pink_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gray_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "light_gray_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cyan_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "purple_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blue_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brown_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "green_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "red_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "black_dye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bone_meal": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sugar": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cake": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "white_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "orange_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "magenta_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "light_blue_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "yellow_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "lime_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "pink_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "gray_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "light_gray_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "cyan_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "purple_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "blue_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "brown_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "green_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "red_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "black_bed": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "cookie": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "filled_map": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "shears": {
+    "hand_equipped": false,
+    "max_damage": 238,
+    "max_stack_size": 1
+  },
+  "melon_slice": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dried_kelp": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pumpkin_seeds": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "melon_seeds": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "beef": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cooked_beef": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chicken": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cooked_chicken": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "rotten_flesh": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ender_pearl": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "blaze_rod": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ghast_tear": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gold_nugget": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nether_wart": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "potion": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "glass_bottle": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spider_eye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "fermented_spider_eye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blaze_powder": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magma_cream": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "brewing_stand": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cauldron": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ender_eye": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "glistering_melon_slice": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bat_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bee_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blaze_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cat_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cave_spider_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chicken_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cod_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cow_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "creeper_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dolphin_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "donkey_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "drowned_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "elder_guardian_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "enderman_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "endermite_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "evoker_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "fox_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ghast_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "guardian_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "hoglin_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "horse_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "husk_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "llama_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "magma_cube_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mooshroom_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "mule_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ocelot_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "panda_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "parrot_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "phantom_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pig_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "piglin_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "piglin_brute_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pillager_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polar_bear_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pufferfish_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "rabbit_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ravager_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "salmon_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sheep_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "shulker_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "silverfish_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "skeleton_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "skeleton_horse_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "slime_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "spider_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "squid_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stray_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "strider_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "trader_llama_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tropical_fish_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "turtle_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "vex_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "villager_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "vindicator_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "wandering_trader_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "witch_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "wither_skeleton_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "wolf_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "zoglin_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "zombie_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "zombie_horse_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "zombie_villager_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "zombified_piglin_spawn_egg": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "experience_bottle": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "fire_charge": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "writable_book": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "written_book": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "emerald": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "item_frame": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "flower_pot": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "carrot": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "potato": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "baked_potato": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "poisonous_potato": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "map": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "golden_carrot": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "skeleton_skull": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "wither_skeleton_skull": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "player_head": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "zombie_head": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "creeper_head": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "dragon_head": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "carrot_on_a_stick": {
+    "hand_equipped": false,
+    "max_damage": 25,
+    "max_stack_size": 1
+  },
+  "warped_fungus_on_a_stick": {
+    "hand_equipped": false,
+    "max_damage": 100,
+    "max_stack_size": 1
+  },
+  "nether_star": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "pumpkin_pie": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "firework_rocket": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "firework_star": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "enchanted_book": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "nether_brick": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "quartz": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tnt_minecart": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "hopper_minecart": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "prismarine_shard": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "prismarine_crystals": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "rabbit": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cooked_rabbit": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "rabbit_stew": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "rabbit_foot": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "rabbit_hide": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "armor_stand": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "iron_horse_armor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "golden_horse_armor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "diamond_horse_armor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "leather_horse_armor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "lead": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "name_tag": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "command_block_minecart": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "mutton": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cooked_mutton": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "white_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "orange_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "magenta_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "light_blue_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "yellow_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "lime_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "pink_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "gray_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "light_gray_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "cyan_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "purple_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "blue_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "brown_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "green_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "red_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "black_banner": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "end_crystal": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chorus_fruit": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "popped_chorus_fruit": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "beetroot": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "beetroot_seeds": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "beetroot_soup": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "dragon_breath": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "splash_potion": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "spectral_arrow": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "tipped_arrow": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lingering_potion": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "shield": {
+    "hand_equipped": false,
+    "max_damage": 336,
+    "max_stack_size": 1
+  },
+  "elytra": {
+    "hand_equipped": false,
+    "max_damage": 432,
+    "max_stack_size": 1
+  },
+  "spruce_boat": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "birch_boat": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "jungle_boat": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "acacia_boat": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "dark_oak_boat": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "totem_of_undying": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "shulker_shell": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "iron_nugget": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "knowledge_book": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "debug_stick": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_13": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_cat": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_blocks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_chirp": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_far": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_mall": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_mellohi": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_stal": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_strad": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_ward": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_11": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_wait": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "music_disc_pigstep": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "trident": {
+    "hand_equipped": false,
+    "max_damage": 250,
+    "max_stack_size": 1
+  },
+  "phantom_membrane": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "nautilus_shell": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "heart_of_the_sea": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crossbow": {
+    "hand_equipped": false,
+    "max_damage": 326,
+    "max_stack_size": 1
+  },
+  "suspicious_stew": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "loom": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "flower_banner_pattern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "creeper_banner_pattern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "skull_banner_pattern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "mojang_banner_pattern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "globe_banner_pattern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "piglin_banner_pattern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 1
+  },
+  "composter": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "barrel": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smoker": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blast_furnace": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cartography_table": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "fletching_table": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "grindstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lectern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "smithing_table": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "stonecutter": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bell": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lantern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "soul_lantern": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "sweet_berries": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "campfire": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "soul_campfire": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "shroomlight": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "honeycomb": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "bee_nest": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "beehive": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "honey_bottle": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 16
+  },
+  "honey_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "honeycomb_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "lodestone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "netherite_block": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "ancient_debris": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "target": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "crying_obsidian": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blackstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blackstone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "blackstone_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "gilded_blackstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "chiseled_polished_blackstone": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone_brick_slab": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "polished_blackstone_brick_stairs": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "cracked_polished_blackstone_bricks": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  },
+  "respawn_anchor": {
+    "hand_equipped": false,
+    "max_damage": 0,
+    "max_stack_size": 64
+  }
+}

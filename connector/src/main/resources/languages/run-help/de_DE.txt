@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Ups! Du hast versucht die Plugin Version von Geyser direkt zu starten!
+
+  Diese jar Datei ist ein Plugin für ${plugin_type}. Du kannst diese Datei als
+  jar Datei in -> "${plugin_folder}" <- legst.
+
+  Es gibt außerdem eine eigenständig lauffähige Version die nicht
+  als Plugin installiert werden muss, die du auf unserem Build-Server finden kannst:
+
+    http://ci.geysermc.org/
+
+  Wenn du mehr Hilfe brauchst, solltest du mal unsern Discord besuchen:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------
