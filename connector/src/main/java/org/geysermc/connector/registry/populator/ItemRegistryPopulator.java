@@ -538,7 +538,7 @@ public class ItemRegistryPopulator {
 
                         NbtMapBuilder customitemProperties = NbtMap.builder();
                         NbtMapBuilder customComponentBuilder = NbtMap.builder();
-                        NbtMapBuilder renderOffsets = NbtMap.builder();
+                       // NbtMapBuilder renderOffsets = NbtMap.builder();
                         // Conveniently, as of 1.16.200, the furnace minecart has a texture AND translation string already.
                         // 1.17.30 moves the icon to the item properties section
                         (palette.getValue().protocolVersion() >= Bedrock_v465.V465_CODEC.getProtocolVersion() ? customitemProperties : customComponentBuilder).putCompound("minecraft:icon", NbtMap.builder().putString("texture", texture).build());
@@ -558,7 +558,7 @@ public class ItemRegistryPopulator {
                         if(texture.contains("pickaxe"))type ="diamond_pickaxe";
                         if(texture.contains("axe"))type ="diamond_axe";
                         if(texture.contains("shovel") || texture.contains("spade") )type ="diamond_shovel";*/
-                        NbtMapBuilder final1 = NbtMap.builder();
+                        /*NbtMapBuilder final1 = NbtMap.builder();
                         NbtMapBuilder first_person = NbtMap.builder();
                         NbtMapBuilder third_person = NbtMap.builder();
                         NbtMapBuilder fp_rotation = NbtMap.builder();
@@ -595,7 +595,7 @@ public class ItemRegistryPopulator {
                         final1.putCompound("third_person",third_person.build());
                         renderOffsets.putCompound("main_hand",final1.build());
                         renderOffsets.putCompound("off_hand",final1.build());
-                        componentBuilder.putCompound("minecraft:render_offsets", renderOffsets.build());
+                        componentBuilder.putCompound("minecraft:render_offsets", renderOffsets.build());*/
                         customComponentBuilder.putCompound("item_properties", customitemProperties.build());
                         custombuilder.putCompound("components", customComponentBuilder.build());
                         customItemData = new ComponentItemData("geysermc:" + texture, custombuilder.build());

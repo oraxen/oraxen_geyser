@@ -53,7 +53,7 @@ whether the item is a tool (a pickaxe, axe, sword, etc) or not in this format:
 - Structure block UI
 
 ## TODO
-- Add support for 3d models
+- Add support for 3d models (Kind of done)
 - Add support for java resource pack to bedrock on the fly (DONE)
 - Add custom block thingies
 - fix bugs
