@@ -87,6 +87,7 @@ public class ConverterHandler {
         converterList.add(CopyConverter.class);
 
         // Custom, not part of the original lib
+        converterList.add(CustomBlockConverter.class);
         converterList.add(CustomModelDataConverter.class);
         //converterList.add(CustomArmorConverter.class);
         converterList.add(DeleteConverter.class);

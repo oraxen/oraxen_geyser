@@ -700,14 +700,38 @@ public class CustomModelDataHandler {
                 }
                 ObjectNode textureName1 = textureName;
                 textureName.put("textures", textureString);
-                textureName1.put("textures", textureString + ".png");
                 // Have the identifier point to that texture data
                 textureData.set(cleanIdentifier, textureName);
-                CustomModelDataConverter.allTextures1.set(cleanIdentifier, textureName1);
+                return textureData;
+            }
+            else if (textureFile.get("textures").has("all")) {
+                String determine = "all";
+                ObjectNode textureData = mapper.createObjectNode();
+                ObjectNode textureName = mapper.createObjectNode();
+                // Make JSON data for Bedrock pointing to where texture data for this item is stored
+                String textureString = textureFile.get("textures").get(determine).textValue();
+                if (textureString.startsWith("item/")) {
+                    textureString = textureString.replace("item/", "textures/items/");
+                } else {
+                    textureString = "textures/" + textureString;
+                }
+                File file1 = storage.resolve(textureString).toFile();
+                if (file1.exists()) {
+                    try {
+                        BufferedImage bi = ImageIO.read(file1);
+                        if (bi.getWidth() > 16 || bi.getHeight() > 16) {
+                            ImageIO.write(scaleWithPadding(bi, 16, 16), "png", file1);
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+                textureName.put("textures", textureString);
+                // Have the identifier point to that texture data
+                textureData.set(cleanIdentifier, textureName);
                 return textureData;
             }
         }
-
         return null;
     }
 

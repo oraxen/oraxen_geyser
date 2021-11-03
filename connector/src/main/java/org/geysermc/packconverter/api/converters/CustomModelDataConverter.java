@@ -58,7 +58,6 @@ public class CustomModelDataConverter extends AbstractConverter {
         super(packConverter, storage, data, storageBp);
     }
     JsonNode itemInformation;
-    public static ObjectNode allTextures1;
     @Override
     public List<AbstractConverter> convert() {
         packConverter.log("Checking for custom model data");
@@ -96,16 +95,9 @@ public class CustomModelDataConverter extends AbstractConverter {
             textureData.put("resource_pack_name", "geysermc");
             textureData.put("texture_name", "atlas.items");
             ObjectNode allTextures = mapper.createObjectNode();
-            ObjectNode textureData1 = mapper.createObjectNode();
-            textureData1.put("resource_pack_name", "geysermc");
-            textureData1.put("texture_name", "atlas.terrain");
-            textureData1.put("padding", 8);
-            textureData1.put("num_mip_levels", 4);
-            allTextures1 = mapper.createObjectNode();
             handleCustomModelData(/*itemInformation,*/ allTextures, mapper, storage.resolve(from).toFile());
 
             textureData.set("texture_data", allTextures);
-            textureData1.set("texture_data",allTextures1);
             //if (!packConverter.getCustomModelData().isEmpty()) {
             // We have custom model data, so let's write the textures
             OutputStream outputStream = Files.newOutputStream(storage.resolve(to), StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.CREATE);
@@ -119,8 +111,6 @@ public class CustomModelDataConverter extends AbstractConverter {
             String final1 = new JsonParser().parse(lazyJsonString).toString();
             byte[] bytes = final1.getBytes();
             outputStream1.write(bytes);
-            OutputStream outputStream2 = Files.newOutputStream(storage.resolve("textures/terrain_texture.json"), StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.CREATE);
-            mapper.writer(new DefaultPrettyPrinter()).writeValue(outputStream2, textureData1);
 
         } catch (Exception e) {
             e.printStackTrace();

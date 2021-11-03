@@ -27,6 +27,7 @@ package org.geysermc.connector.registry.populator;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.nukkitx.nbt.NbtMap;
 import com.nukkitx.nbt.NbtMapBuilder;
 import com.nukkitx.nbt.NbtType;
@@ -620,9 +621,6 @@ public class ItemRegistryPopulator {
                     .furnaceMinecartData(furnaceMinecartData)
                     .customItems(allitemdata)
                     .build();
-
-
-
             Registries.ITEMS.register(palette.getValue().protocolVersion(), itemMappings);
         }
 

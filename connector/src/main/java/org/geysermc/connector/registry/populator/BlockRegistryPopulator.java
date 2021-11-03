@@ -26,6 +26,7 @@
 package org.geysermc.connector.registry.populator;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.google.common.collect.ImmutableMap;
 import com.nukkitx.nbt.*;
 import com.nukkitx.protocol.bedrock.v448.Bedrock_v448;
@@ -61,6 +62,7 @@ import java.util.zip.GZIPInputStream;
  * Populates the block registries.
  */
 public class BlockRegistryPopulator {
+    public static ArrayNode blockStates;
     private static final ImmutableMap<ObjectIntPair<String>, BiFunction<String, NbtMapBuilder, String>> BLOCK_MAPPERS;
     private static final BiFunction<String, NbtMapBuilder, String> EMPTY_MAPPER = (bedrockIdentifier, statesBuilder) -> null;
 
@@ -81,7 +83,6 @@ public class BlockRegistryPopulator {
     public static void populate() {
         registerJavaBlocks();
         registerBedrockBlocks();
-
         BLOCKS_JSON = null;
     }
 
@@ -190,6 +191,7 @@ public class BlockRegistryPopulator {
             if (movingBlockRuntimeId == -1) {
                 throw new AssertionError("Unable to find moving block in palette");
             }
+
             builder.bedrockMovingBlockId(movingBlockRuntimeId);
 
             // Loop around again to find all item frame runtime IDs
@@ -198,6 +200,10 @@ public class BlockRegistryPopulator {
                 if (name.equals("minecraft:frame") || name.equals("minecraft:glow_frame")) {
                     itemFrames.put(entry.getKey(), entry.getIntValue());
                 }
+            }
+            for (JsonNode blockState: blockStates) {
+                javaRuntimeId++;
+                javaIdentifierToBedrockTag.put(cleanJavaIdentifier.intern(), blocksTag.get(bedrockRuntimeId));
             }
             builder.bedrockBlockStates(blocksTag);
 
