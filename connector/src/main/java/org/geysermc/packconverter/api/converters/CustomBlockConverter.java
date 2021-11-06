@@ -166,7 +166,7 @@ public class CustomBlockConverter extends AbstractConverter {
                                         BlockRegistryPopulator.blockStates.add(blockBuilder);
                                         BlockRegistryPopulator.blockStateIds.add("geysermc:zzz_" + model);
                                         BlockRegistryPopulator.blockStatesNode.add(blockState);
-                                        BlockRegistryPopulator.customBlockTags.add("geysermc:zzz_" + note + "_" + instrument + "_" + powered);
+                                        BlockRegistryPopulator.customBlockTags.add("geysermc:zzz_" + model);
                                         // }
                                     }
                                 }

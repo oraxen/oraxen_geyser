@@ -188,7 +188,7 @@ public class BlockRegistryPopulator {
                                     if (blockState.has("apply")) {
                                         //javaRuntimeId++;
                                         String model = blockState.get("apply").get("model").asText();
-                                        NbtMap bedrockRuntimeId001 = buildCustomBedrockState("geysermc:zzz_" + note + "_" + instrument + "_" + powered, entry.getValue(), stateVersion, stateMapper);
+                                        NbtMap bedrockRuntimeId001 = buildCustomBedrockState("geysermc:zzz_" + model, entry.getValue(), stateVersion, stateMapper);
                                         blockStateOrderedMap.put(bedrockRuntimeId001,blockStateOrderedMap.size()+1);
                                         //String[] splitStr = java.intern().split(":");
                                         //very very very very very very very very very very very very very very very very very very very very very very very very very very very very hacky method, do not use in production
@@ -196,7 +196,7 @@ public class BlockRegistryPopulator {
                                         //javaIdentifierToBedrockTag.put(cleanJavaIdentifier, bedrockRuntimeId001);
                                         NbtMap nbt = NbtMap.builder().putCompound("components", NbtMap.builder().putCompound("minecraft:block_light_absorption", putWithValue(0)).putCompound("minecraft:entity_collision", NbtMap.builder().putBoolean("enabled", true).putList("origin", NbtType.FLOAT, Arrays.asList(0f, 0f, 0f)).putList("size", NbtType.FLOAT, Arrays.asList(16f, 16f, 16f)).build())
                                                 .putCompound("minecraft:unit_cube", NbtMap.EMPTY).putCompound("minecraft:material_instances", NbtMap.builder().putCompound("mappings", NbtMap.EMPTY).putCompound("materials", NbtMap.builder().putCompound("*", NbtMap.builder().putBoolean("ambient_occlusion", true).putBoolean("face_dimming", true).putString("texture", "zzz_" + model).putString("render_method", "opaque").build()).build()).build()).build()).build();
-                                        customBlocks.put(("geysermc:zzz_" + note + "_" + instrument + "_" + powered).intern(), nbt);
+                                        customBlocks.put(("geysermc:zzz_" + model).intern(), nbt);
                                         javaToBedrockBlocks[javaRuntimeId] = blockStateOrderedMap.getOrDefault(bedrockRuntimeId001, -1);
                                         //System.out.println(bedrockRuntimeId001+"    |      "+blocksTag.get(bedrockRuntimeId));
                                         hasNotRegistered = false;
