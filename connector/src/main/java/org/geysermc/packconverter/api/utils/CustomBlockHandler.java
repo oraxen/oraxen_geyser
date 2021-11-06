@@ -33,6 +33,8 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.nukkitx.nbt.NbtMap;
 import com.nukkitx.nbt.NbtMapBuilder;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -43,17 +45,48 @@ public class CustomBlockHandler {
     public static ObjectNode handleBlockData(ObjectMapper mapper, Path storage, String originalItemName) {
         ObjectNode block = mapper.createObjectNode();
         //String identifier = "geysermc:" + originalItemName;
-        ObjectNode faces = mapper.createObjectNode();
-        faces.put("up",originalItemName);
-        faces.put("down",originalItemName);
-        faces.put("north",originalItemName);
-        faces.put("south",originalItemName);
-        faces.put("west",originalItemName);
-        faces.put("east",originalItemName);
-        block.set("textures",faces);
+        ObjectNode finalBlock = mapper.createObjectNode();
+        finalBlock.put("up","zzz_"+originalItemName);
+        finalBlock.put("down","zzz_"+originalItemName);
+        finalBlock.put("north","zzz_"+originalItemName);
+        finalBlock.put("south","zzz_"+originalItemName);
+        finalBlock.put("west","zzz_"+originalItemName);
+        finalBlock.put("east","zzz_"+originalItemName);
+        block.set("textures",finalBlock);
         block.put("sound","stone");
-        //ObjectNode finalBlock = mapper.createObjectNode();
         //finalBlock.set(identifier,block);
         return block;
+    }
+    public static String handleItemTexture(ObjectMapper mapper, Path storage, String fileName) {
+        JsonNode textureFile;
+        fileName = fileName.contains("\\") ? fileName.replaceAll("\\\\", "/") : fileName;
+        File textureFilePath;
+        System.out.println("assets/minecraft/models/" + fileName + ".json");
+        textureFilePath = storage.resolve("assets/minecraft/models/" + fileName + ".json").toFile();
+        if (!textureFilePath.exists()) {
+            System.out.println("No texture file found at " + textureFilePath + "; we were given assets/minecraft/models/" + fileName);
+            return null;
+        }
+        try (InputStream stream = new FileInputStream(textureFilePath)) {
+            textureFile = mapper.readTree(stream);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+
+        // TODO: This is called BSing it. It works but is it correct?
+        if (textureFile.has("textures")) {
+            if (textureFile.get("textures").has("all")) {
+                String determine = "all";
+                String textureString = textureFile.get("textures").get(determine).textValue();
+                if (textureString.startsWith("item/")) {
+                    textureString = textureString.replace("item/", "textures/items/");
+                } else {
+                    textureString = "textures/" + textureString;
+                }
+                return textureString;
+            }
+        }
+        return null;
     }
 }

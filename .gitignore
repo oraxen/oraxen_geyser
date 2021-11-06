@@ -237,6 +237,7 @@ nbdist/
 
 ### Geyser ###
 run/
+config.yml
 logs/
 public-key.pem
 locales/

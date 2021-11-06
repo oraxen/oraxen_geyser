@@ -360,7 +360,7 @@ public abstract class ItemTranslator {
         if (object instanceof byte[]) {
             return new ByteArrayTag(name, (byte[]) object);
         }
-        
+
         if (object instanceof Byte) {
             return new ByteTag(name, (byte) object);
         }

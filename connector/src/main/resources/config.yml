@@ -192,16 +192,15 @@ custom-model-data-mappings:
   # "oraxen_item_id;is_this_a_tool" (pickaxe,sword,etc.)
   # replace entries below with your own oraxen items
   - "amber_axe;true"
-    - "amber_boots;false"
-    - "amber_chestplate;false"
-    - "amber_helmet;false"
-    - "amber_hoe;true"
-    - "amber_leggings;false"
-    - "amber_ore;false"
-    - "amber_pickaxe;true"
-    - "amber_spade;true"
-    - "amber_sword;true"
-    - "amber;false"
+  - "amber_boots;false"
+  - "amber_chestplate;false"
+  - "amber_helmet;false"
+  - "amber_hoe;true"
+  - "amber_leggings;false"
+  - "amber_pickaxe;true"
+  - "amber_spade;true"
+  - "amber_sword;true"
+  
 # Allow connections from ProxyPass and Waterdog.
 # See https://www.spigotmc.org/wiki/firewall-guide/ for assistance - use UDP instead of TCP.
 enable-proxy-connections: false

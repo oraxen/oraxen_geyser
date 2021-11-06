@@ -715,20 +715,9 @@ public class CustomModelDataHandler {
                 } else {
                     textureString = "textures/" + textureString;
                 }
-                File file1 = storage.resolve(textureString).toFile();
-                if (file1.exists()) {
-                    try {
-                        BufferedImage bi = ImageIO.read(file1);
-                        if (bi.getWidth() > 16 || bi.getHeight() > 16) {
-                            ImageIO.write(scaleWithPadding(bi, 16, 16), "png", file1);
-                        }
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
                 textureName.put("textures", textureString);
                 // Have the identifier point to that texture data
-                textureData.set(cleanIdentifier, textureName);
+                textureData.set("zzz_"+cleanIdentifier, textureName);
                 return textureData;
             }
         }

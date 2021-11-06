@@ -52,6 +52,7 @@ import com.github.steveice10.packetlib.packet.Packet;
 import com.github.steveice10.packetlib.tcp.TcpClientSession;
 import com.nukkitx.math.GenericMath;
 import com.nukkitx.math.vector.*;
+import com.nukkitx.nbt.NbtMap;
 import com.nukkitx.protocol.bedrock.BedrockPacket;
 import com.nukkitx.protocol.bedrock.BedrockServerSession;
 import com.nukkitx.protocol.bedrock.data.*;
@@ -93,6 +94,7 @@ import org.geysermc.connector.network.translators.chat.MessageTranslator;
 import org.geysermc.connector.network.translators.collision.CollisionManager;
 import org.geysermc.connector.network.translators.inventory.InventoryTranslator;
 import org.geysermc.connector.registry.Registries;
+import org.geysermc.connector.registry.populator.BlockRegistryPopulator;
 import org.geysermc.connector.registry.type.BlockMappings;
 import org.geysermc.connector.registry.type.ItemMappings;
 import org.geysermc.connector.skin.FloodgateSkinUploader;
@@ -763,7 +765,7 @@ public class GeyserSession implements CommandSender {
                             if (!connector.getTimeSyncer().hasUsefulOffset()) {
                                 connector.getLogger().warning(
                                         "We couldn't make sure that your system clock is accurate. " +
-                                        "This can cause issues with logging in."
+                                                "This can cause issues with logging in."
                                 );
                             }
 
@@ -1130,7 +1132,7 @@ public class GeyserSession implements CommandSender {
     @Override
     public String getLocale() {
         return clientData.getLanguageCode();
-     }
+    }
 
     public void setRenderDistance(int renderDistance) {
         renderDistance = GenericMath.ceil(++renderDistance * MathUtils.SQRT_OF_TWO); //square to circle
@@ -1154,6 +1156,10 @@ public class GeyserSession implements CommandSender {
     }
 
     private void startGame() {
+        List<BlockPropertyData> customBlocks = new ArrayList<>();
+        for (Map.Entry<String,NbtMap> block1 : BlockRegistryPopulator.customBlocks.entrySet()) {
+            customBlocks.add(new BlockPropertyData(block1.getKey(),block1.getValue()));
+        }
         StartGamePacket startGamePacket = new StartGamePacket();
         startGamePacket.setUniqueEntityId(playerEntity.getGeyserId());
         startGamePacket.setRuntimeEntityId(playerEntity.getGeyserId());
@@ -1200,6 +1206,9 @@ public class GeyserSession implements CommandSender {
         startGamePacket.setEnchantmentSeed(0);
         startGamePacket.setMultiplayerCorrelationId("");
         startGamePacket.setItemEntries(this.itemMappings.getItemEntries());
+        for (int blockData = 0; blockData < customBlocks.size(); blockData++) {
+            startGamePacket.getBlockProperties().add(customBlocks.get(blockData));
+        }
         startGamePacket.setVanillaVersion("*");
         startGamePacket.setInventoriesServerAuthoritative(true);
         startGamePacket.setServerEngine(""); // Do we want to fill this in?
@@ -1388,7 +1397,7 @@ public class GeyserSession implements CommandSender {
      * @param permission The permission node to check
      * @return true if the player has the requested permission, false if not
      */
-    public Boolean hasPermission(String permission) {
+    public boolean hasPermission(String permission) {
         return connector.getWorldManager().hasPermission(this, permission);
     }
 

@@ -33,8 +33,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.type.ArrayType;
 import com.google.gson.JsonParser;
+import com.nukkitx.nbt.NbtMap;
+import com.nukkitx.nbt.NbtMapBuilder;
+import com.nukkitx.nbt.NbtType;
 import lombok.Getter;
+import org.geysermc.connector.GeyserConnector;
 import org.geysermc.connector.registry.populator.BlockRegistryPopulator;
+import org.geysermc.connector.registry.populator.ItemRegistryPopulator;
 import org.geysermc.packconverter.api.PackConverter;
 import org.geysermc.packconverter.api.utils.CustomArmorHandler;
 import org.geysermc.packconverter.api.utils.CustomBlockHandler;
@@ -45,6 +50,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CustomBlockConverter extends AbstractConverter {
@@ -71,7 +77,6 @@ public class CustomBlockConverter extends AbstractConverter {
             String from = (String) this.data[0];
             String to = (String) this.data[1];
             String blocksJson = (String) this.data[2];
-
             ObjectMapper mapper = new ObjectMapper();
             packConverter.log(String.format("Converted custom blocks %s", from));
 
@@ -83,7 +88,7 @@ public class CustomBlockConverter extends AbstractConverter {
             textureData.put("num_mip_levels", 4);
             ObjectNode allTextures = mapper.createObjectNode();
             blockData = mapper.createObjectNode();
-            blockData.set("format", mapper.createArrayNode().add(1).add(1).add(0));
+            blockData.put("format", "1.16.100");
             handleCustomBlockData(/*itemInformation,*/ allTextures, mapper, storage.resolve(from).toFile());
 
             textureData.set("texture_data", allTextures);
@@ -100,6 +105,13 @@ public class CustomBlockConverter extends AbstractConverter {
         }
 
         return new ArrayList<>();
+    }
+
+    private static NbtMap putWithValue(Object value) {
+        NbtMapBuilder builder = NbtMap.builder();
+        builder.put("value", value);
+
+        return builder.build();
     }
 
     public List<File> traverseDirectory(final File folder, List<File> fileNamesList) {
@@ -120,32 +132,44 @@ public class CustomBlockConverter extends AbstractConverter {
         List<File> fileList = traverseDirectory(directory, new ArrayList<File>());
         for (File file : fileList) {
             try {
-                if (!file.isFile()) {
-                    handleCustomBlockData(/*itemInformation,*/ allTextures, mapper, file);
-                }
                 InputStream stream = new FileInputStream(file);
 
                 JsonNode node = mapper.readTree(stream);
                 if (node.has("multipart")) {
                     //String originalItemName = file.getName().replace(".json", "");
-                    for (JsonNode blockstate : node.get("multipart")) {
-                        // The "ID" of the CustomModelData. If the ID is 1, then to get the custom model data
-                        // You need to run in Java `/give @s stick{CustomModelData:1}`
-                        //int id = predicate.get("custom_model_data").asInt();
-                        // Get the identifier that we'll register the item with on Bedrock, and create the JSON file
-                        // List<String> strArr1 = file.getPath().contains("/") ? java.util.Arrays.asList(file.getPath().split("/")) : java.util.Arrays.asList(file.getPath().split("\\\\"));
-                        // Create the texture information
-                        if (blockstate.get("apply") == null) {
+                    for (JsonNode blockState : node.get("multipart")) {
+                        if (!blockState.has("apply")) {
                             continue;
                         }
-                        JsonNode apply = blockstate.get("apply");
+                        JsonNode apply = blockState.get("apply");
                         String model = "";
                         //String out2 = join(strArr1, "/", strArr1.indexOf("models") + 1, strArr1.size()).replace(".json", "");
-                        if (apply.get("model") != null) {
+                        if (apply.has("model")) {
                             model = apply.get("model").asText();
                             if (model != null && !model.equals("required/note_block")) {
-                                blockData.set("geysermc:" + model, CustomBlockHandler.handleBlockData(mapper, storage, model));
-                                BlockRegistryPopulator.blockStates.add(node);
+                                blockData.set("geysermc:zzz_" + model, CustomBlockHandler.handleBlockData(mapper, storage, model));
+                                if (blockState.get("when") != null) {
+                                    JsonNode when = blockState.get("when");
+                                    if (when.get("instrument") != null && when.get("note") != null && when.get("powered") != null) {
+                                        String instrument = when.get("instrument").asText();
+                                        int note = when.get("note").asInt();
+                                        boolean powered = when.get("powered").asBoolean();
+                                        //if (javaId.equals("minecraft:note_block[instrument=" + instrument + ",note=" + note + ",powered=" + powered + "]")) {
+                                        NbtMapBuilder blockBuilder = NbtMap.builder();
+                                        // blockBuilder.putCompound("minecraft:destroy_time", putWithValue(0.5f)); //TODO
+                                        String textureOutput = CustomBlockHandler.handleItemTexture(mapper, storage, model);
+                                        blockBuilder.putCompound("minecraft:material_instances", NbtMap.builder().putCompound("materials", NbtMap.builder().putCompound("*", NbtMap.builder().putBoolean("ambient_occlusion", true).putBoolean("face_dimming", true).putString("texture", "zzz_"+model).putString("render_method", "opaque").build()).build()).build());
+                                        blockBuilder.putCompound("minecraft:entity_collision", NbtMap.builder().putBoolean("enabled", true).putList("origin", NbtType.FLOAT, Arrays.asList(0f, 0f, 0f)).putList("size", NbtType.FLOAT, Arrays.asList(16f, 16f, 16f)).build());
+                                        blockBuilder.putCompound("minecraft:unit_cube", NbtMap.EMPTY);
+                                        blockBuilder.putCompound("minecraft:block_light_absorption", putWithValue(0));
+                                        ((ObjectNode)blockState).put("arrayIndex",blockState.size());
+                                        BlockRegistryPopulator.blockStates.add(blockBuilder);
+                                        BlockRegistryPopulator.blockStateIds.add("geysermc:zzz_" + model);
+                                        BlockRegistryPopulator.blockStatesNode.add(blockState);
+                                        BlockRegistryPopulator.customBlockTags.add("geysermc:zzz_" + note + "_" + instrument + "_" + powered);
+                                        // }
+                                    }
+                                }
                             } else {
                                 continue;
                             }
@@ -166,7 +190,7 @@ public class CustomBlockConverter extends AbstractConverter {
                         // Map exists, add the new CustomModelData ID and Bedrock string identifier
                         //data.put(id, customModelData);
                         //}
-                        ObjectNode textureInfo = CustomModelDataHandler.handleItemTexture(mapper, storage, "default/" + model);
+                        ObjectNode textureInfo = CustomModelDataHandler.handleItemTexture(mapper, storage,  model);
                         if (textureInfo != null) {
                             // If texture was created, add it to the file where Bedrock will read all textures
                             allTextures.setAll(textureInfo);
