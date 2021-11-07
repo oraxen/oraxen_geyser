@@ -146,7 +146,7 @@ public class CustomBlockConverter extends AbstractConverter {
                         //String out2 = join(strArr1, "/", strArr1.indexOf("models") + 1, strArr1.size()).replace(".json", "");
                         if (apply.has("model")) {
                             model = apply.get("model").asText();
-                            if (model != null && !model.equals("required/note_block")) {
+                            if (model != null && !model.contains("required/note_block")) {
                                 blockData.set("geysermc:zzz_" + model, CustomBlockHandler.handleBlockData(mapper, storage, model));
                                 if (blockState.get("when") != null) {
                                     JsonNode when = blockState.get("when");
@@ -166,7 +166,7 @@ public class CustomBlockConverter extends AbstractConverter {
                                         BlockRegistryPopulator.blockStates.add(blockBuilder);
                                         BlockRegistryPopulator.blockStateIds.add("geysermc:zzz_" + model);
                                         BlockRegistryPopulator.blockStatesNode.add(blockState);
-                                        BlockRegistryPopulator.customBlockTags.add("geysermc:zzz_" + model);
+                                        BlockRegistryPopulator.customBlockTags.add("geysermc:zzz_"+ model);
                                         // }
                                     }
                                 }

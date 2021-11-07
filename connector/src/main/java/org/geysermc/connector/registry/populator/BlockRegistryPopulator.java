@@ -113,15 +113,6 @@ public class BlockRegistryPopulator {
             Object2IntMap<NbtMap> blockStateOrderedMap = new Object2IntOpenHashMap<>(blocksTag.size());
 
             int stateVersion = -1;
-
-            int airRuntimeId = -1;
-            int commandBlockRuntimeId = -1;
-            int javaRuntimeId = -1;
-            int waterRuntimeId = -1;
-            int movingBlockRuntimeId = -1;
-            Iterator<Map.Entry<String, JsonNode>> blocksIterator = BLOCKS_JSON.fields();
-
-            BiFunction<String, NbtMapBuilder, String> stateMapper = BLOCK_MAPPERS.getOrDefault(palette.getKey(), EMPTY_MAPPER);
             for (int i = 0; i < blocksTag.size(); i++) {
                 NbtMap tag = blocksTag.get(i);
                 if (blockStateOrderedMap.containsKey(tag)) {
@@ -132,14 +123,22 @@ public class BlockRegistryPopulator {
                     stateVersion = tag.getInt("version");
                 }
             }
+            int airRuntimeId = -1;
+            int commandBlockRuntimeId = -1;
+            int javaRuntimeId = -1;
+            int waterRuntimeId = -1;
+            int movingBlockRuntimeId = -1;
+            Iterator<Map.Entry<String, JsonNode>> blocksIterator = BLOCKS_JSON.fields();
+
+            BiFunction<String, NbtMapBuilder, String> stateMapper = BLOCK_MAPPERS.getOrDefault(palette.getKey(), EMPTY_MAPPER);
             int[] javaToBedrockBlocks = new int[BLOCKS_JSON.size()];
 
             Map<String, NbtMap> flowerPotBlocks = new Object2ObjectOpenHashMap<>();
             Object2IntMap<NbtMap> itemFrames = new Object2IntOpenHashMap<>();
 
             IntSet jigsawStateIds = new IntOpenHashSet();
-
             BlockMappings.BlockMappingsBuilder builder = BlockMappings.builder();
+            Collections.sort(blockStatesNode, Comparator.comparing(p -> p.get("apply").get("model").asText()));
             while (blocksIterator.hasNext()) {
                 javaRuntimeId++;
                 Map.Entry<String, JsonNode> entry = blocksIterator.next();
@@ -175,6 +174,17 @@ public class BlockRegistryPopulator {
                 if (entry.getValue().get("pottable") != null) {
                     flowerPotBlocks.put(cleanJavaIdentifier.intern(), blocksTag.get(bedrockRuntimeId));
                 }
+                for (JsonNode blockState : blockStatesNode) {
+                    if (javaId.contains("note_block")) {
+                        if (blockState.has("apply")) {
+                            //javaRuntimeId++;
+                            String model = blockState.get("apply").get("model").asText();
+                            NbtMap bedrockRuntimeId001 = buildCustomBedrockState("geysermc:zzz_" + model, entry.getValue(), stateVersion, stateMapper);
+                            if (blockStateOrderedMap.getOrDefault(bedrockRuntimeId001, -1) == -1)
+                                blockStateOrderedMap.put(bedrockRuntimeId001, blockStateOrderedMap.size());
+                        }
+                    }
+                }
                 boolean hasNotRegistered = true;
                 for (JsonNode blockState : blockStatesNode) {
                     if (javaId.contains("note_block")) {
@@ -189,14 +199,13 @@ public class BlockRegistryPopulator {
                                         //javaRuntimeId++;
                                         String model = blockState.get("apply").get("model").asText();
                                         NbtMap bedrockRuntimeId001 = buildCustomBedrockState("geysermc:zzz_" + model, entry.getValue(), stateVersion, stateMapper);
-                                        blockStateOrderedMap.put(bedrockRuntimeId001,blockStateOrderedMap.size()+1);
                                         //String[] splitStr = java.intern().split(":");
                                         //very very very very very very very very very very very very very very very very very very very very very very very very very very very very hacky method, do not use in production
                                         //NbtMapBuilder nbt = blockStates.get(blockState.get("arrayIndex").asInt());
-                                        javaIdentifierToBedrockTag.put(cleanJavaIdentifier, bedrockRuntimeId001);
+                                        //javaIdentifierToBedrockTag.put(cleanJavaIdentifier.intern(), bedrockRuntimeId001);
                                         NbtMap nbt = NbtMap.builder().putCompound("components", NbtMap.builder().putCompound("minecraft:block_light_absorption", putWithValue(0)).putCompound("minecraft:entity_collision", NbtMap.builder().putBoolean("enabled", true).putList("origin", NbtType.FLOAT, Arrays.asList(0f, 0f, 0f)).putList("size", NbtType.FLOAT, Arrays.asList(16f, 16f, 16f)).build())
                                                 .putCompound("minecraft:unit_cube", NbtMap.EMPTY).putCompound("minecraft:material_instances", NbtMap.builder().putCompound("mappings", NbtMap.EMPTY).putCompound("materials", NbtMap.builder().putCompound("*", NbtMap.builder().putBoolean("ambient_occlusion", true).putBoolean("face_dimming", true).putString("texture", "zzz_" + model).putString("render_method", "opaque").build()).build()).build()).build()).build();
-                                        customBlocks.put(("geysermc:zzz_" + model).intern(), nbt);
+                                        customBlocks.put("geysermc:zzz_" + model, nbt);
                                         javaToBedrockBlocks[javaRuntimeId] = blockStateOrderedMap.getOrDefault(bedrockRuntimeId001, -1);
                                         //System.out.println(bedrockRuntimeId001+"    |      "+blocksTag.get(bedrockRuntimeId));
                                         hasNotRegistered = false;
@@ -291,7 +300,6 @@ public class BlockRegistryPopulator {
             if (hardnessNode != null) {
                 builder.hardness(hardnessNode.doubleValue());
             }
-
             JsonNode canBreakWithHandNode = entry.getValue().get("can_break_with_hand");
             if (canBreakWithHandNode != null) {
                 builder.canBreakWithHand(canBreakWithHandNode.booleanValue());
@@ -336,16 +344,6 @@ public class BlockRegistryPopulator {
                 uniqueJavaId++;
                 cleanIdentifiers.add(cleanJavaIdentifier.intern());
             }
-
-            builder.javaIdentifier(javaId);
-            builder.javaBlockId(uniqueJavaId);
-
-            BlockRegistries.JAVA_IDENTIFIERS.register(javaId, javaRuntimeId);
-            BlockRegistries.JAVA_BLOCKS.register(javaRuntimeId, builder.build());
-
-            // Keeping this here since this is currently unchanged between versions
-            // It's possible to only have this store differences in names, but the key set of all Java names is used in sending command suggestions
-
             boolean hasNotRegistered = true;
             for (JsonNode blockState : blockStatesNode) {
                 if (javaId.contains("note_block")) {
@@ -361,7 +359,8 @@ public class BlockRegistryPopulator {
                                     //int bedrockRuntimeId001 = blockStateOrderedMap.getOrDefault(buildCustomBedrockState("geysermc:zzz_"+model,entry.getValue(), stateVersion, stateMapper), -1);
                                     //very very very very very very very very very very very very very very very very very very very very very very very very very very very very hacky method, do not use in production
                                     //NbtMapBuilder nbt = blockStates.get(blockState.get("arrayIndex").asInt());
-                                    BlockRegistries.JAVA_TO_BEDROCK_IDENTIFIERS.register(cleanJavaIdentifier.intern(), ("geysermc:zzz_"+model).intern());
+                                    //builder.hardness(22.5);
+                                    BlockRegistries.JAVA_TO_BEDROCK_IDENTIFIERS.register(cleanJavaIdentifier.intern(), ("geysermc:zzz_" + model).intern());
                                     hasNotRegistered = false;
                                     break;
                                 }
@@ -370,7 +369,18 @@ public class BlockRegistryPopulator {
                     }
                 }
             }
-            if (hasNotRegistered) BlockRegistries.JAVA_TO_BEDROCK_IDENTIFIERS.register(cleanJavaIdentifier.intern(), bedrockIdentifier.intern());
+            builder.javaIdentifier(javaId);
+            builder.javaBlockId(uniqueJavaId);
+
+            BlockRegistries.JAVA_IDENTIFIERS.register(javaId, javaRuntimeId);
+            BlockRegistries.JAVA_BLOCKS.register(javaRuntimeId, builder.build());
+
+            // Keeping this here since this is currently unchanged between versions
+            // It's possible to only have this store differences in names, but the key set of all Java names is used in sending command suggestions
+
+            if (hasNotRegistered) {
+                BlockRegistries.JAVA_TO_BEDROCK_IDENTIFIERS.register(cleanJavaIdentifier.intern(), bedrockIdentifier.intern());
+            }
             if (javaId.startsWith("minecraft:bell[")) {
                 bellBlockId = uniqueJavaId;
 
