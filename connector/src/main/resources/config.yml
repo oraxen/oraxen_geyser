@@ -197,13 +197,22 @@ custom-model-data-mappings:
   - "amber_helmet;false"
   - "amber_hoe;true"
   - "amber_leggings;false"
-  - "amber_ore;false"
   - "amber_pickaxe;true"
   - "amber_spade;true"
-  - "axe_of_warlords;true"
-  - "banana_bread;false"
-  - "banana_cake;false"
-  - "banana;false"
+  - "amber_sword;true"
+  - "amber;false"
+  - "amethyst_axe;true"
+  - "amethyst_boots;false"
+  - "amethyst_chestplate;false"
+  - "amethyst_hammer;true"
+  - "amethyst_helmet;false"
+  - "amethyst_hoe;true"
+  - "amethyst_leggings;false"
+  - "amethyst_pickaxe;true"
+  - "amethyst_spade;true"
+  - "amethyst_sword;true"
+  - "amethyst;false"
+
 # Allow connections from ProxyPass and Waterdog.
 # See https://www.spigotmc.org/wiki/firewall-guide/ for assistance - use UDP instead of TCP.
 enable-proxy-connections: false

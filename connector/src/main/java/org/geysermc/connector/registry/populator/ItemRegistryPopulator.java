@@ -27,10 +27,13 @@ package org.geysermc.connector.registry.populator;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.nukkitx.nbt.NbtMap;
 import com.nukkitx.nbt.NbtMapBuilder;
 import com.nukkitx.nbt.NbtType;
 import com.nukkitx.nbt.NbtUtils;
+import com.nukkitx.protocol.bedrock.data.BlockPropertyData;
 import com.nukkitx.protocol.bedrock.data.SoundEvent;
 import com.nukkitx.protocol.bedrock.data.inventory.ComponentItemData;
 import com.nukkitx.protocol.bedrock.data.inventory.ItemData;
@@ -59,8 +62,8 @@ import java.util.*;
  * Populates the item registries.
  */
 public class ItemRegistryPopulator {
+    public static ArrayList<String> itemMappings = new ArrayList<>();
     private static final Map<String, PaletteVersion> PALETTE_VERSIONS;
-
     static {
         PALETTE_VERSIONS = new Object2ObjectOpenHashMap<>();
         if (GeyserConnector.getInstance().getConfig().isExtendedWorldHeight()) {
@@ -75,6 +78,7 @@ public class ItemRegistryPopulator {
 
     private record PaletteVersion(int protocolVersion, Map<String, String> additionalTranslatedItems) {
     }
+
     public static Map<String, Integer> customIDs;
 
     public static void populate() {
@@ -504,18 +508,75 @@ public class ItemRegistryPopulator {
                 componentBuilder.putCompound("item_properties", itemProperties.build());
                 builder.putCompound("components", componentBuilder.build());
                 furnaceMinecartData = new ComponentItemData("geysermc:furnace_minecart", builder.build());
+                /*for (JsonNode blockState : BlockRegistryPopulator.blockStatesNode) {
+                        if (blockState.has("when")) {
+                            JsonNode when = blockState.get("when");
+                            if (when.has("instrument") && when.has("note") && when.has("powered")) {
+                                String instrument = when.get("instrument").asText();
+                                int note = when.get("note").asInt();
+                                boolean powered = when.get("powered").asBoolean();
+                                // if (javaId.contains("minecraft:note_block[instrument=" + instrument + ",note=" + note + ",powered=" + powered + "]")) {
+                                    if (blockState.has("apply")) {
+                                        String model = blockState.get("apply").get("model").asText();
+                                        int customBlockId = mappings.size() + 1;
+                                        entries.put("geysermc:zzz_"+model, new StartGamePacket.ItemEntry("geysermc:zzz_"+model, (short) customBlockId, true));
 
+                                        mappings.put(javaFurnaceMinecartId, ItemMapping.builder()
+                                                .javaIdentifier("geysermc:zzz_"+model)
+                                                .bedrockIdentifier("geysermc:zzz_"+model)
+                                                .javaId(javaFurnaceMinecartId)
+                                                .bedrockId(customBlockId)
+                                                .bedrockData(0)
+                                                .bedrockBlockId(-1)
+                                                .stackSize(1)
+                                                .build());
 
-                int itemId = mappings.size() +1;
+                                        creativeItems.add(ItemData.builder()
+                                                .netId(netId)
+                                                .id(customBlockId)
+                                                .count(1).build());
 
-                for (String sd : GeyserConnector.getInstance().getConfig().getCustomModelDataMappings()) {
+                                        NbtMapBuilder builder1 = NbtMap.builder();
+                                        builder1.putString("name","geysermc:zzz_"+model)
+                                                .putInt("id", customBlockId);
 
+                                        NbtMapBuilder itemProperties1 = NbtMap.builder();
+
+                                        NbtMapBuilder componentBuilder1 = NbtMap.builder();
+                                        // Conveniently, as of 1.16.200, the furnace minecart has a texture AND translation string already.
+                                        // 1.17.30 moves the icon to the item properties section
+                                        (palette.getValue().protocolVersion() >= Bedrock_v465.V465_CODEC.getProtocolVersion() ?
+                                                itemProperties1 : componentBuilder1).putCompound("minecraft:icon", NbtMap.builder().putString("texture","zzz_"+model).build());
+                                        componentBuilder1.putCompound("minecraft:display_name", NbtMap.builder().putString("value", "Custom Block"+customBlockId).build());
+
+                                        // Indicate that the arm animation should play on rails
+
+                                        // We always want to allow offhand usage when we can - matches Java Edition
+                                        itemProperties1.putBoolean("allow_off_hand", true);
+                                        itemProperties1.putBoolean("hand_equipped", false);
+                                        itemProperties1.putInt("max_stack_size", 64);
+
+                                        componentBuilder1.putCompound("item_properties", itemProperties1.build());
+                                        builder1.putCompound("components", componentBuilder1.build());
+                                        ComponentItemData customItemData1 = new ComponentItemData("geysermc:zzz_"+model, builder1.build());
+                                        allitemdata.add(customItemData1);
+                                        customIDs.put("geysermc:zzz_"+model, customBlockId);
+                                    }
+                               // }
+                            }
+                        }
+                }*/
+
+                int itemId = mappings.size() + 1;
+
+                for (String sd : itemMappings) {
                     if (sd.contains(";")) {
                         String[] values = sd.split(";");
 
                         //int customModelData = Integer.parseInt(values[0]);
                         String texture = values[0];
                         boolean isTool = Boolean.parseBoolean(values[1]);
+                        boolean is3DItem = Boolean.parseBoolean(values[2]);
 
                         ComponentItemData customItemData = null;
 
@@ -538,9 +599,15 @@ public class ItemRegistryPopulator {
 
                         NbtMapBuilder customitemProperties = NbtMap.builder();
                         NbtMapBuilder customComponentBuilder = NbtMap.builder();
-                       // NbtMapBuilder renderOffsets = NbtMap.builder();
+                        // NbtMapBuilder renderOffsets = NbtMap.builder();
                         // Conveniently, as of 1.16.200, the furnace minecart has a texture AND translation string already.
                         // 1.17.30 moves the icon to the item properties section
+                        /*if(!is3DItem) {
+                            (palette.getValue().protocolVersion() >= Bedrock_v465.V465_CODEC.getProtocolVersion() ? customitemProperties : customComponentBuilder).putCompound("minecraft:icon", NbtMap.builder().putString("texture", texture).build());
+                        }
+                        else if (is3DItem){
+                            customComponentBuilder.putCompound("minecraft:material_instances", NbtMap.builder().putCompound("materials", NbtMap.builder().putCompound("*", NbtMap.builder().putBoolean("ambient_occlusion", true).putBoolean("face_dimming", true).putString("texture", texture).putString("render_method", "opaque").build()).build()).build());
+                        }*/
                         (palette.getValue().protocolVersion() >= Bedrock_v465.V465_CODEC.getProtocolVersion() ? customitemProperties : customComponentBuilder).putCompound("minecraft:icon", NbtMap.builder().putString("texture", texture).build());
                         customComponentBuilder.putCompound("minecraft:display_name", NbtMap.builder().putString("value", "Custom Item" + itemId).build());
 
@@ -551,8 +618,19 @@ public class ItemRegistryPopulator {
                         customitemProperties.putBoolean("allow_off_hand", true);
                         customitemProperties.putBoolean("hand_equipped", isTool);
                         customitemProperties.putInt("max_stack_size", 64);
+                        NbtMapBuilder wearable = NbtMap.builder();
+                        String type = null;
+                        if (texture.contains("_boots")) type = "feet";
+                        if (texture.contains("_chestplate")) type = "chest";
+                        if (texture.contains("_leggings")) type = "legs";
+                        if (texture.contains("_helmet")) type = "head";
+                        if (type != null) {
+                            wearable.putBoolean("dispensable", true);
+                            wearable.putString("slot", "slot.armor." + type);
+                            customitemProperties.putCompound("minecraft:wearable", wearable.build());
+                        }
                         //very hacky method
-                       /* String type = "tools";
+                        /*String tool = "tools";
                         if(texture.contains("sword"))type ="diamond_sword";
                         if(texture.contains("hoe"))type ="diamond_hoe";
                         if(texture.contains("pickaxe"))type ="diamond_pickaxe";
@@ -620,9 +698,6 @@ public class ItemRegistryPopulator {
                     .furnaceMinecartData(furnaceMinecartData)
                     .customItems(allitemdata)
                     .build();
-
-
-
             Registries.ITEMS.register(palette.getValue().protocolVersion(), itemMappings);
         }
 

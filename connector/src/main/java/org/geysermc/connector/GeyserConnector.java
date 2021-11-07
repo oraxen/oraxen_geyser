@@ -147,6 +147,7 @@ public class GeyserConnector {
 
         logger.setDebug(config.isDebugMode());
 
+        ResourcePack.loadPacks();
         PacketTranslatorRegistry.init();
 
         /* Initialize translators and registries */
@@ -157,8 +158,6 @@ public class GeyserConnector {
         MessageTranslator.init();
         LocaleUtils.init();
         ScoreboardUpdater.init();
-
-        ResourcePack.loadPacks();
 
         if (platformType != PlatformType.STANDALONE && config.getRemote().getAddress().equals("auto")) {
             // Set the remote address to localhost since that is where we are always connecting
@@ -231,7 +230,6 @@ public class GeyserConnector {
 
         CooldownUtils.setDefaultShowCooldown(config.getShowCooldown());
         DimensionUtils.changeBedrockNetherId(config.isAboveBedrockNetherBuilding()); // Apply End dimension ID workaround to Nether
-        SkullBlockEntityTranslator.ALLOW_CUSTOM_SKULLS = config.isAllowCustomSkulls();
 
         // https://github.com/GeyserMC/Geyser/issues/957
         RakNetConstants.MAXIMUM_MTU_SIZE = (short) config.getMtu();

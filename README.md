@@ -1,4 +1,4 @@
-<img src="https://geysermc.org/img/geyser-1760-860.png" alt="Geyser" width="600"/>
+<img src="https://dl.dropboxusercontent.com/s/kmke6kchxcwftsg/geyser-1760-860.png" alt="Geyser" width="600"/>
 
 [![forthebadge made-with-java](https://forthebadge.com/images/badges/made-with-java.svg)](https://java.com/)
 
@@ -48,15 +48,15 @@ whether the item is a tool (a pickaxe, axe, sword, etc) or not in this format:
 
 ## What's Left to be Added/Fixed
 - Near-perfect movement (to the point where anticheat on large servers is unlikely to ban you)
-- Resource pack conversion/CustomModelData 
+- Resource pack conversion/CustomModelData
 - Some Entity Flags
 - Structure block UI
 
 ## TODO
 - Add support for 3d models (Kind of done)
 - Add support for java resource pack to bedrock on the fly (DONE)
-- Add custom block thingies
-- fix bugs
+- Add custom block thingies(Done-ish)
+- fix bugs 
 
 ## What can't be fixed
 There are a few things Geyser is unable to support due to various differences between Minecraft Bedrock and Java. For a list of these limitations, see the [Current Limitations](https://github.com/GeyserMC/Geyser/wiki/Current-Limitations) page.
